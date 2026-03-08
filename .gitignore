@@ -1,0 +1,70 @@
+﻿# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# Python / Jupyter
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------
+# Build / temp / logs
+# -----------------------------
+build/
+dist/
+*.tmp
+*.temp
+*.bak
+*.log
+
+# -----------------------------
+# Secrets / local credentials
+# -----------------------------
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_ed25519
+
+# -----------------------------
+# Privacy-sensitive personal files
+# (Keep local, do not push)
+# -----------------------------
+**/*学号*.*
+**/*身份证*.*
+**/*个人信息*.*
+**/*隐私*.*
+**/*联系方式*.*
+**/*手机号*.*
+
+# Reports that usually contain name/class/student-id
+**/作业报告*.md
+**/作业报告*.pdf
+**/report_assets/cover.png
