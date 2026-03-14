@@ -38,6 +38,9 @@ dist/
 *.temp
 *.bak
 *.log
+~$*
+*.autosave
+*.wbk
 
 # -----------------------------
 # Secrets / local credentials
@@ -63,8 +66,23 @@ id_ed25519
 **/*隐私*.*
 **/*联系方式*.*
 **/*手机号*.*
+**/*姓名*.*
+**/*地址*.*
+**/*邮箱*.*
 
 # Reports that usually contain name/class/student-id
 **/作业报告*.md
 **/作业报告*.pdf
 **/report_assets/cover.png
+
+# AI collaboration logs that may include local paths, prompts, or personal details
+**/AI协同日志*.md
+**/AI协同日志*.pdf
+**/AI协同日志*.txt
+**/AI协同记录*.md
+**/AI协同记录*.pdf
+**/AI协同记录*.txt
+
+# Accidental nested output folders
+/第二次作业/第二次作业/
+
